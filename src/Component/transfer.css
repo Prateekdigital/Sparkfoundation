@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400;500;600;700;800&family=Rochester&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.Transfer_container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-around;
+
+  }
+ 
+ 
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+  }
+  
+  th {
+    background-color: rgb(79, 122, 148);
+  }
+  
+  td {
+    background-color: rgb(167, 175, 180);
+  }
+  .Form_heading
+  {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .Transfer_container form{
+    box-shadow:
+  0 7px 30px -10px rgba(150,170,180,0.5);
+    width: 50%;
+    padding: 30px 40px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  .Transfer_container form input{
+    
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+  .Transfer_container button{
+    
+   background-color: black;
+   color: white;
+   display: inline-block;
+   margin-top: 10px;
+   width: 20%;
+   padding: 5px 0;
+  }
+  
